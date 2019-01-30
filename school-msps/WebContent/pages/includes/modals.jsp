@@ -25,6 +25,7 @@
 						<div class="form-group">
 							<label for="exampleFormControlSelect1">User Level</label> <select
 								class="form-control" id="userLevel">
+								<option></option>
 								<option>Student</option>
 								<option>Teacher</option>
 								<option>Principal</option>
@@ -82,6 +83,7 @@
 						<div class="form-group">
 							<label for="exampleFormControlSelect1">You are a?</label> <select
 								class="form-control" id="registerUserLevel">
+								<option></option>
 								<option>Student</option>
 								<option>Teacher</option>
 								<option>Principal</option>
