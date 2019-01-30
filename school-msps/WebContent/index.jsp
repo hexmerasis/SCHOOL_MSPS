@@ -5,6 +5,5 @@
 	<jsp:include page="./pages/includes/pageUtil.jsp" />
 	<jsp:include page="./pages/includes/modals.jsp" />
 </body>
-<script>
-</script>
+<jsp:include page="./scripts/registerUserSubmit.jsp" />
 </html>
