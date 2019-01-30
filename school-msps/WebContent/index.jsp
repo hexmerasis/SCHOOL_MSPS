@@ -82,7 +82,7 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 		<a class="navbar-brand" href="">SMSPS</a>
 		<ul class="navbar-nav mr-auto">
-		<li class="nav-item"><a class="nav-link" href=""
+			<li class="nav-item"><a class="nav-link" href=""
 				data-toggle="modal" data-target="#registerUser">Sign Up</a></li>
 			<li class="nav-item"><a class="nav-link" href=""
 				data-toggle="modal" data-target="#loginModal">Login</a></li>
@@ -123,8 +123,6 @@
 			</div>
 		</div>
 	</div>
-
-
 	<!-- The Modal -->
 	<div class="modal fade" id="loginModal">
 		<div class="modal-dialog modal-lg">
@@ -134,25 +132,24 @@
 					<h4 class="modal-title">Login User</h4>
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
 				</div>
-
 				<!-- Modal body -->
 				<div class="modal-body">
 					<form>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Email address</label> <input
-								type="email" class="form-control" id="exampleInputEmail1"
+								type="email" class="form-control" id="userEmail"
 								aria-describedby="emailHelp" placeholder="Enter email">
 							<small id="emailHelp" class="form-text text-muted">We'll
 								never share your email with anyone else.</small>
 						</div>
 						<div class="form-group">
 							<label for="exampleInputPassword1">Password</label> <input
-								type="password" class="form-control" id="exampleInputPassword1"
+								type="password" class="form-control" id="userPassword"
 								placeholder="Password">
 						</div>
 						<div class="form-group">
 							<label for="exampleFormControlSelect1">User Level</label> <select
-								class="form-control" id="exampleFormControlSelect1">
+								class="form-control" id="userLevel">
 								<option>Student</option>
 								<option>Teacher</option>
 								<option>Principal</option>
@@ -162,17 +159,15 @@
 						</div>
 					</form>
 				</div>
-
 				<!-- Modal footer -->
 				<div class="modal-footer">
-				<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="submit" class="btn btn-primary">Submit</button>
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
 	</div>
-	
 	<div class="modal fade" id="registerUser">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
@@ -181,19 +176,18 @@
 					<h4 class="modal-title">Register User</h4>
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
 				</div>
-
 				<!-- Modal body -->
 				<div class="modal-body">
 					<form>
-					<div class="form-group">
+						<div class="form-group">
 							<label for="exampleInputEmail1">First Name</label> <input
 								type="text" class="form-control" id="registerEmail"
-								 placeholder="Enter firstname">
+								placeholder="Enter firstname">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Last Name</label> <input
 								type="text" class="form-control" id="registerEmail"
-								 placeholder="Enter lastname">
+								placeholder="Enter lastname">
 						</div>
 						<div class="form-group">
 							<label for="exampleInputEmail1">Email address</label> <input
@@ -222,10 +216,9 @@
 						</div>
 					</form>
 				</div>
-
 				<!-- Modal footer -->
 				<div class="modal-footer">
-				<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="submit" class="btn btn-primary">Submit</button>
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Close</button>
 				</div>
