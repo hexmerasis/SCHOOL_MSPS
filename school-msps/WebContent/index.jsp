@@ -9,7 +9,7 @@
 	<jsp:include page="./pages/includes/modals.jsp" /> --%>
 	</div>
 	<jsp:include page="./pages/includes/footer.jsp" />
-</body>
+</body>gg
 <jsp:include page="./scripts/registerUserSubmit.jsp" />
 <jsp:include page="./scripts/teacher/teacherNavAction.jsp" />
 </html>
