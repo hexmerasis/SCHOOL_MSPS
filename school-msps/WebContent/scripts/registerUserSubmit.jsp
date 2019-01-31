@@ -1,14 +1,16 @@
 <script>
 $("#registerUserBtn").click(function(){
-	
+	registerNewUser();
+});
 
-alert($("#registerfirstName").val());
-})
+$("#loginUserBtn").click(function(){
+	loginUser();
+});
 
 function registerNewUser(){
 	$.ajax({
-		url : contextPath + "/login",
-		method : "GET",
+		url : contextPath + "/register",
+		method : "POST",
 		data : {
 			firstName 	: 	$("#registerfirstName").val(),
 			lastName  	: 	$("#registerlastName").val(),
@@ -23,7 +25,25 @@ function registerNewUser(){
 			window.location = contextPath + "/pages/home.jsp";
 		},
 		failure: function (response) {
-			$(".sysMessage").html("Invalid username or password!");
+			$(".sysMessage").html("Unable to add user.");
+        }
+	});
+}
+
+function loginUser(){
+	$.ajax({
+		url : contextPath + "/login",
+		method : "GET",
+		data : {
+			eMail 		: 	$("#registerEmail").val(),
+			password 	: 	$("#registerPass").val(),
+			userLevel 	: 	$("#registerUserLevel").val()
+		},
+		success : function(result) {
+			window.location = contextPath + "/pages/home.jsp";
+		},
+		failure: function (response) {
+			$(".sysMessage").html("Invalid username/password.");
         }
 	});
 }

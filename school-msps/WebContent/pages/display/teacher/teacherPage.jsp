@@ -1,6 +1,8 @@
-<div class = "teacherPage">
-	<div class="jumbotron">
+<div id="teacherPage">
 	<jsp:include page="./includes/navBar.jsp" />
-	<jsp:include page="./body/landingProfile.jsp" />
+	<div id="teacherPageBody">
+		<jsp:include page="./body/landingProfile.jsp" />
+		
 	</div>
+	<jsp:include page="./body/time-table/timeTable.jsp" />
 </div>
