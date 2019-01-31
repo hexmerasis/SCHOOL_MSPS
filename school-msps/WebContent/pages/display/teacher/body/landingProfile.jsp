@@ -1,3 +1,4 @@
+<br/><br/>
 <div class="container emp-profile">
             <form method="post">
                 <div class="row">
@@ -12,9 +13,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="profile-head">
-                                    <h5>
+                                    <h3>
                                         Mark Anthony Ragay
-                                    </h5>
+                                    </h3>
                                     <h6>
                                         Professor/ R&D Director 
                                     </h6>
@@ -24,7 +25,7 @@
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Classes</a>
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Classes Handled</a>
                                 </li>
                             </ul>
                         </div>
@@ -40,7 +41,7 @@
                             <ul>
                             <li>Electromagnetics</li>
                             <li>Differential Calculu</li>
-                            <li>Adv. Eng'ng Mathematics</li>
+                            <li>Adv. Eng'ng Mathematics</li>                          
                             </ul>
                             <br/>
                             <h4>DEPARTMENTS</h4>
