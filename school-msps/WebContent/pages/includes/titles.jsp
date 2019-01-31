@@ -18,6 +18,9 @@
 	rel="stylesheet">
 <link type="text/css" rel="stylesheet"
 	href="./style/components/homeCarousel.css">
+	
+<link type="text/css" rel="stylesheet"
+	href="./pages/display/teacher/style/profileBody.css">
 <script>
 	var contextPath = "${pageContext.request.contextPath}";
 </script>

@@ -1,5 +1,3 @@
-
-
 <!-- NAVIGATION BAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 	<a class="navbar-brand" href="">SMSPS</a>
@@ -10,7 +8,3 @@
 			data-toggle="modal" data-target="#loginModal">Login</a></li>
 	</ul>
 </nav>
-<!-- FOOTER -->
-<div class="jumbotron text-center" style="margin-bottom: 0">
-	<h4>Developers Footer</h4>
-</div>
